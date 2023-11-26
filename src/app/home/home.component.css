@@ -1,0 +1,16 @@
+.job-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    color: #3498db;
+  }

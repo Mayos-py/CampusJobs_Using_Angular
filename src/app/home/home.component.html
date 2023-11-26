@@ -1,0 +1,17 @@
+<app-filter [jobFilter]="jobFilter" (filterChanged)="updateFilter($event)"></app-filter>
+    <div class="job-cards">
+      <div class="job-card" *ngFor="let job of displayedJobs">
+        <h3>{{ job.title }}</h3>
+        <p>{{ job.description }}</p>
+        <p><strong>Perks:</strong> {{ job.perks.join(', ') }}</p>
+        <p><strong>Salary:</strong> {{ job.salary }}</p>
+      </div>
+    </div>
+    <app-pagination
+      [currentPage]="currentPage"
+      [totalPages]="totalPages"
+      (pageChange)="changePage($event)"
+    ></app-pagination>
+    
+    
+    

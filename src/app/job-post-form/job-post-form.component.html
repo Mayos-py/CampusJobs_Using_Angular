@@ -1,0 +1,26 @@
+<form [formGroup]="jobForm" (ngSubmit)="postJob()" class="job-form">
+  <div class="form-group">
+    <label for="title">Job Title:</label>
+    <input type="text" id="title" name="title" formControlName="title" required>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Job Description:</label>
+    <textarea id="description" name="description" formControlName="description" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="perks">Perks:</label>
+    <input type="text" id="perks" name="perks" formControlName="perks" required>
+  </div>
+
+  <div class="form-group">
+    <label for="salary">Salary:</label>
+    <input type="text" id="salary" name="salary" formControlName="salary" required>
+  </div>
+
+  <div class="button-group">
+    <button type="submit" class="post-button">Post Job(Download updated JSON)</button>
+    <button type="button" (click)="goBack()" class="cancel-button">Cancel</button>
+  </div>
+</form>

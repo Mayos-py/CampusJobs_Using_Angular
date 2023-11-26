@@ -1,0 +1,53 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "description": "Develop amazing software.",
+        "perks": ["Flexible hours", "Health insurance", "Gym membership"],
+        "salary": "$80,000 - $120,000"
+      },
+      {
+        "id": 2,
+        "title": "Web Developer",
+        "description": "Build responsive web applications.",
+        "perks": ["Remote work", "401(k) plan", "Paid time off"],
+        "salary": "$70,000 - $100,000"
+      },
+      {
+        "id": 3,
+        "title": "Data Scientist",
+        "description": "Analyze and interpret complex datasets.",
+        "perks": ["Stock options", "Flexible vacation policy", "Learning budget"],
+        "salary": "$90,000 - $130,000"
+      },
+      {
+        "id": 4,
+        "title": "Data Scientist 1",
+        "description": "Analyze and interpret complex datasets.",
+        "perks": ["Stock options", "Flexible vacation policy", "Learning budget"],
+        "salary": "$90,000 - $130,000"
+      },
+      {
+        "id": 5,
+        "title": "Data Scientist 2",
+        "description": "Analyze and interpret complex datasets.",
+        "perks": ["Stock options", "Flexible vacation policy", "Learning budget"],
+        "salary": "$90,000 - $130,000"
+      },
+      {
+        "id": 6,
+        "title": "Data Scientist 3",
+        "description": "Analyze and interpret complex datasets.",
+        "perks": ["Stock options", "Flexible vacation policy", "Learning budget"],
+        "salary": "$90,000 - $130,000"
+      },
+      {
+        "id": 7,
+        "title": "Web Developer 1",
+        "description": "Build responsive web applications.",
+        "perks": ["Remote work", "401(k) plan", "Paid time off"],
+        "salary": "$70,000 - $100,000"
+      }
+    ]
+  }
